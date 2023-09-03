@@ -1,5 +1,5 @@
 {% set name = "importRosbag" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/importRosbag-{{ version }}.tar.gz
-  sha256: 17d85d932691520489af508e5566ba5646389253557a6fc4528d48a3f274bfe0
+  sha256: 8f09a153a14cfa563810d6b5c3f26153c9320f81f0d82a6671bf8b5cd49350aa
 
 build:
   number: 0
